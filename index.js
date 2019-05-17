@@ -9,5 +9,7 @@ module.exports = {
   getMultilingualFile: rootRequire('lib/getMultilingualFile.js'),
   postFile: rootRequire('lib/postFile.js'),
   postScreenshot: rootRequire('lib/postScreenshot.js'),
-  getLanguages: rootRequire('lib/getLanguages.js')
+  getLanguages: rootRequire('lib/getLanguages.js'),
+  getQuotation: rootRequire('lib/getQuotation.js'),
+  createOrder: rootRequire('lib/createOrder.js')
 };
